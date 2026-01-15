@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Χρυσάφης & Εριέτα</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music/Vivo per lei.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">🔈</button>
+
+<div class="flowers top"></div>
+
+<main class="wrapper">
+
+  <!-- ΟΝΟΜΑΤΑ -->
+  <section class="block">
+    <h1 class="names">
+      Χρυσάφης<br>
+      <span>&</span><br>
+      Εριέτα
+    </h1>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- COUNTDOWN -->
+  <section class="block">
+    <h2 class="section-title">Countdown</h2>
+    <div class="countdown" id="countdown"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ΠΡΟΣΚΛΗΣΗ -->
+  <section class="block">
+    <p class="text">
+      Με πολλή χαρά σας προσκαλούμε στο γάμο μας την Κυριακή
+      25 Οκτωβρίου 2026 και ώρα 16:00
+      στον Ιερό Ναό Οσίας Παρασκευής της Επιβατινής
+    </p>
+    <iframe src="https://www.google.com/maps?q=Ιερός Ναός Οσίας Παρασκευής της Επιβατινής&output=embed"></iframe>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ΔΕΞΙΩΣΗ -->
+  <section class="block">
+    <p class="text">
+      Η δεξίωση θα ακολουθήσει στο<br>
+      Ethereal Hall, Royal Hotel
+    </p>
+    <iframe src="https://www.google.com/maps?q=Royal Hotel Περαία&output=embed"></iframe>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ΟΙΚΟΓΕΝΕΙΕΣ -->
+  <section class="block">
+    <p class="text">
+      Οικογένειες<br><br>
+      Φανή Μυτιληναίου & Παναγιώτης Παναγιώτου<br>
+      Νένα Καζάκου & Αναστάσιος Παρτάλης
+    </p>
+
+    <div class="small-space"></div>
+
+    <p class="text">
+      Κουμπάροι<br><br>
+      Φανή Θωμαΐδου & Σταύρος Στεφανίδης
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ΛΙΣΤΑ ΓΑΜΟΥ -->
+  <section class="block">
+    <p class="text">
+      Προαιρετική λίστα γάμου<br><br>
+      EUROBANK<br>
+      GR48 0260 3260 0001 9010 0330 203
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RSVP -->
+  <section class="block">
+    <h2 class="section-title">RSVP</h2>
+    <p class="text">Παρακαλούμε ενημερώστε μας έως 10 Οκτωβρίου</p>
+
+    <form class="rsvp-form" action="https://formspree.io/f/mwkgrzya" method="POST">
+      <input type="text" name="Ονόματα" placeholder="Ονόματα" required>
+      <input type="number" name="Ενήλικες" placeholder="Αριθμός ενηλίκων" required>
+      <input type="number" name="Παιδιά" placeholder="Αριθμός παιδιών">
+      <textarea name="Σχόλια" placeholder="Σχόλια"></textarea>
+      <button type="submit">ΑΠΟΣΤΟΛΗ</button>
+    </form>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ΚΛΕΙΣΙΜΟ -->
+  <section class="block">
+    <p class="closing">
+      Θα χαρούμε να μας τιμήσετε με την παρουσία σας!<br><br>
+      Με αγάπη<br>
+      Χρυσάφης & Εριέτα
+    </p>
+  </section>
+
+</main>
+
+<div class="flowers bottom"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
